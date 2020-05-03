@@ -16,3 +16,7 @@ docker exec -it msf bash
 '''bash
 git 
 '''
+```javascript
+var s = "JavaScript syntax highlighting";
+alert(s);
+```
