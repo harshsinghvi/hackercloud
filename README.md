@@ -6,17 +6,13 @@ Custom Scripts will be added soon
 
 ## Usage 
 install using docker image
-'''bash
+```bash
 docker pull insomniaccoder/hackercloud
 mkdir ~/mnt
 docker run -d -t --name msf -p 5000:5000 -p 80:80 -v ~/mnt:/mnt  insomniaccoder/hackercloud
 docker exec -it msf bash
-'''
+```
 ## Build your own 
-'''bash
-git 
-'''
-```javascript
-var s = "JavaScript syntax highlighting";
-alert(s);
+```bash
+git clone 
 ```
