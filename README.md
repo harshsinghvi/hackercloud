@@ -14,5 +14,7 @@ docker exec -it msf bash
 ```
 ## Build your own 
 ```bash
-git clone 
+git clone https://github.com/harshsinghvi/hackercloud.git
+cd hackercloud
+docker -t <image_name> .
 ```
