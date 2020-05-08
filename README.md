@@ -3,7 +3,10 @@ hackcloud is a docker image that is desired to be used on cloud computers or any
 This image is based on kali linux rolling release with essential tools like msf and nmap pre-installed.
 
 Custom Scripts will be added soon 
-Docker repo: https://hub.docker.com/r/insomniaccoder/phishing
+
+Docker repo: https://hub.docker.com/r/insomniaccoder/hackercloud
+
+Refer My Blog for usage : https://harshsinghvi.github.io/blog/is-cloud-a-tool-for-hackers/
 ## Usage 
 install using docker image
 ```bash
@@ -11,6 +14,13 @@ docker pull insomniaccoder/hackercloud
 mkdir ~/mnt
 docker run -d -t --name msf -p 5000:5000 -p 80:80 -v ~/mnt:/mnt  insomniaccoder/hackercloud
 docker exec -it msf bash
+```
+## Start MSFCONCOLE
+```bash 
+sudo docker exec -it msf bash
+service postgress restart 
+msfdb reinit
+msfconsole
 ```
 ## Build your own 
 ```bash
