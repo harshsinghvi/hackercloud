@@ -15,7 +15,7 @@ mkdir ~/mnt
 docker run -d -t --name msf -p 5000:5000 -p 80:80 -v ~/mnt:/mnt  insomniaccoder/hackercloud
 docker exec -it msf bash
 ```
-## Start MSFCONCOLE
+## Start MSFCONSOLE
 ```bash 
 sudo docker exec -it msf bash
 service postgress restart 
