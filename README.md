@@ -30,3 +30,4 @@ docker -t <image_name> .
 ```
 ## Build Multi-Arch Images 
 <a href="https://mirailabs.io/blog/multiarch-docker-with-buildx/"> Refer this guide </a>
+
